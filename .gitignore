@@ -3,3 +3,11 @@
 *.sh
 *.bat
 /nbproject/private/
+
+# Ocultando arquivos referentes às credenciais
+# do banco
+/persistence/dbconfig.php
+
+# Ocultando arquivos upados para a pasta 'arquivos'
+/apps/common/arquivos/*
+!/apps/common/arquivos/*.php
